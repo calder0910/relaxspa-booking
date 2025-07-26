@@ -44,7 +44,7 @@ const spaStaff = [
         id: 1,
         name: 'Maya Sari',
         specialties: [1, 2], // Swedish & Deep Tissue
-        photo: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300',
+        photo: 'https://file.indonesianfilmcenter.com/uploads/2019-08/7f6ed71975a128c7fd22718a187661e9.jpg',
         bio: 'Certified massage therapist with 8 years experience',
         rating: 4.9,
         experience: '8 years'
@@ -53,7 +53,7 @@ const spaStaff = [
         id: 2,
         name: 'Dewi Lestari',
         specialties: [3], // Facial
-        photo: 'https://images.unsplash.com/photo-1594824388948-d11d57f83bb2?w=300',
+        photo: 'https://statik.tempo.co/data/2018/01/19/id_677760/677760_720.jpg',
         bio: 'Licensed esthetician specializing in facial treatments',
         rating: 4.8,
         experience: '6 years'
@@ -62,7 +62,7 @@ const spaStaff = [
         id: 3,
         name: 'Sari Indah',
         specialties: [4], // Body Scrub
-        photo: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300',
+        photo: 'https://asset.kompas.com/crops/x8V6jzQ6bCoKduPv2-YTbHQyVR0=/9x14:944x637/1200x800/data/photo/2018/03/01/2597139576.jpg',
         bio: 'Body treatment specialist with holistic approach',
         rating: 4.7,
         experience: '5 years'
