@@ -6,14 +6,15 @@
     <title>Relax Spa & Wellness - Online Booking</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <!-- Hero Section -->
-    <section class="hero-section bg-primary text-white text-center py-5">
+    <section class="hero-section text-white text-center py-5">
         <div class="container">
             <h1 class="display-4 mb-3">Relax Spa & Wellness</h1>
             <p class="lead">Book your perfect spa experience online</p>
-            <a href="#booking" class="btn btn-light btn-lg mt-3">Book Now</a>
+            <a href="#booking" class="btn btn-light btn-lg btn-custom mt-3">Book Now</a>
         </div>
     </section>
 
@@ -33,8 +34,31 @@
             <h2 class="text-center mb-5">Book Your Appointment</h2>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="card shadow">
+                    <div class="card shadow booking-card">
                         <div class="card-body p-4">
+                            <!-- Step Progress Indicator -->
+                            <div class="step-progress d-none" id="step-progress">
+                                <div class="step-item active" id="progress-1">
+                                    <div class="step-number">1</div>
+                                    <span>Service</span>
+                                </div>
+                                <div class="mx-3">→</div>
+                                <div class="step-item" id="progress-2">
+                                    <div class="step-number">2</div>
+                                    <span>Therapist</span>
+                                </div>
+                                <div class="mx-3">→</div>
+                                <div class="step-item" id="progress-3">
+                                    <div class="step-number">3</div>
+                                    <span>Date & Time</span>
+                                </div>
+                                <div class="mx-3">→</div>
+                                <div class="step-item" id="progress-4">
+                                    <div class="step-number">4</div>
+                                    <span>Details</span>
+                                </div>
+                            </div>
+                            
                             <div id="booking-form">
                                 <!-- Booking form will be populated by JavaScript -->
                             </div>
@@ -49,6 +73,7 @@
     <footer class="bg-dark text-white text-center py-4">
         <div class="container">
             <p>&copy; 2025 Relax Spa & Wellness. All rights reserved.</p>
+            <p class="mb-0"><small>Custom WordPress booking system by <a href="#" class="text-light">Rachmat Calder</a></small></p>
         </div>
     </footer>
 
